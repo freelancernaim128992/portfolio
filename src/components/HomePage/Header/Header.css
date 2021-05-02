@@ -1,0 +1,7 @@
+.header-container{
+    background-image: linear-gradient(#0000002b, #000000bd),url(../../../images/header-bg.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}

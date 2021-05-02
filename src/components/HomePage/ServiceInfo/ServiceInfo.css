@@ -1,0 +1,27 @@
+.icon-style{
+    font-size: 70px;
+    color: #f66561;
+}
+.card-container{
+    border: 1px solid #1395c4;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    background: transparent;
+    box-shadow: 0 0 15px #d0d0d0;
+    width: 360px;
+    margin-right: 35px;
+    transition: .5s;
+}
+.card-container:hover{
+    background-color: #1395c4;
+    box-shadow: 0 0 60px #1395c4;
+    transform: translateY(-20px);
+}
+.card-container:hover .icon-style{
+    color: white;
+    transform: scale3d(1.5, 1.5, 1.5);
+}
+.card-container:hover .service-info-title{
+    color: white;
+}
