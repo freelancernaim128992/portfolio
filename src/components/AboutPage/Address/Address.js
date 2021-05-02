@@ -11,7 +11,7 @@ const Address = () => {
                 <span className="border-style"></span>
             </div>
             <div className="mt-5 d-flex justify-content-center">
-                <Link className="btn-style">Download Resume</Link>
+                <a target="_blank" href="https://drive.google.com/file/d/1hgxTLdW9PEBL4vhwoA6U_phsQT_vw_mj/view?usp=sharing" className="btn-style">Download Resume</a>
             </div>
             <div className="d-flex justify-content-center mt-5">
                 <img src={myImg} alt=""/>

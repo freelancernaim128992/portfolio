@@ -21,7 +21,9 @@ const HeaderMain = () => {
 
                     <p className="text-secondary text-style w-75">I'm a full stack developer.Over the last 4 month, I learn Web development in programming hero. I have done a total of 11 projects. This is my portfolio website. If you want to hire me Please contact with me</p>
                     <div className="mt-5">
-                        <Link to="/about" className="btn-style">Download Resume</Link>
+                    <a target="_blank" href="https://drive.google.com/file/d/1hgxTLdW9PEBL4vhwoA6U_phsQT_vw_mj/view?usp=sharing">
+                        <button className="btn-style">Download Resume</button>
+                    </a>
                     </div>
                 </div>
             </div>
