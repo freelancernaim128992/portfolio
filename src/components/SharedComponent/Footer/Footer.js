@@ -36,10 +36,10 @@ const Footer = () => {
                     <FooterCol title="Pages" itemInfo={pages} />
                     <FooterCol title="" itemInfo={contact}>
                         <ul className="list-unstyled d-flex">
-                            <li className="me-3 footer-link-container"><Link className="contact-link-style" to="/"><i className="flaticon-facebook"></i></Link></li>
-                            <li className="me-3 footer-link-container"><Link className="contact-link-style" to="/"><i className="flaticon-linkedin"></i></Link></li>
-                            <li className="me-3 footer-link-container"><Link className="contact-link-style" to="/"><i className="flaticon-instagram"></i></Link></li>
-                            <li className="me-3 footer-link-container"><Link className="contact-link-style" to="/"><i className="flaticon-github"></i></Link></li>
+                            <li className="me-3 footer-link-container"><a className="contact-link-style" target="_blank" href="https://www.facebook.com/arafat9942"><i className="flaticon-facebook"></i></a></li>
+                            <li className="me-3 footer-link-container"><a className="contact-link-style" target="_blank" href="https://www.linkedin.com/in/arafat-islam-naim-400512203/"><i className="flaticon-linkedin"></i></a></li>
+                            <li className="me-3 footer-link-container"><a className="contact-link-style" target="_blank" href="https://www.instagram.com/naimislam128992/"><i className="flaticon-instagram"></i></a></li>
+                            <li className="me-3 footer-link-container"><a className="contact-link-style" target="_blank" href="https://github.com/freelancernaim128992"><i className="flaticon-github"></i></a></li>
                         </ul>
                     </FooterCol>
                     <div className="text-center text-white my-3">

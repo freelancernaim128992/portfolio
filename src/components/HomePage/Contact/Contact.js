@@ -30,15 +30,15 @@ const Contact = () => {
                             <div className="mb-4">
                                 <input type="text" className="form-control p-3" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Name" name="name" />
                             </div>
-                            <div class="mb-4">
+                            <div className="mb-4">
                                 <input type="text" className="form-control p-3" id="exampleInputPassword1" placeholder="Enter Your Email" name="email" />
                             </div>
-                            <div class="mb-4">
+                            <div className="mb-4">
                                 <input type="text" className="form-control p-3" id="exampleInputPassword1" placeholder="Enter Subject" name="subject" />
                             </div>
-                            <div class="form-floating">
-                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style={{height: "100px"}} name="message"></textarea>
-                                <label for="floatingTextarea2">Message</label>
+                            <div className="form-floating">
+                                <textarea className="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style={{height: "100px"}} name="message"></textarea>
+                                <label htmlFor="floatingTextarea2">Message</label>
                             </div>
                             <button type="submit" className="button-brand mt-5">Send Message</button>
                         </div>

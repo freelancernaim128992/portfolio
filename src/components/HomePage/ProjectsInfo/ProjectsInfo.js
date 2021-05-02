@@ -6,7 +6,7 @@ const ProjectsInfo = ({info}) => {
         <div className="col-md-4 text-center">
             <div className="project-card shadow rounded">
                 <div className="img-container">
-                    <img src={info.img} className="img-fluid img-style" alt="" srcset=""/>
+                    <img src={info.img} className="img-fluid img-style" alt="" />
                 </div>
                 <div className="p-4">
                     <h3>{info.name}</h3>

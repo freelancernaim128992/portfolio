@@ -6,7 +6,7 @@ const ServiceInfo = ({info}) => {
         <div className="col-md-4 text-center">
             <div className="card-container">
                 <div className="icon-style">
-                    <i class={info.icon}></i>
+                    <i className={info.icon}></i>
                 </div>
                 <div className="">
                     <h3 className="service-info-title">{info.name}</h3>
