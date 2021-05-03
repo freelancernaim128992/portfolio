@@ -14,7 +14,7 @@ const Address = () => {
                 <a target="_blank" href="https://drive.google.com/file/d/1hgxTLdW9PEBL4vhwoA6U_phsQT_vw_mj/view?usp=sharing" className="btn-style">Download Resume</a>
             </div>
             <div className="d-flex justify-content-center mt-5">
-                <img src={myImg} alt=""/>
+                <img src={myImg} className="img-fluid" alt=""/>
             </div>
             <div className="text-center">
                 <h2>Hello, I'm Arafat Islam Naim</h2>

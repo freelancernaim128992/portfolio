@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import myImg from '../../../images/naim.png'
 import './About.css'
+import Zoom from 'react-reveal/Zoom';
 
 const About = () => {
     return (
@@ -14,9 +15,12 @@ const About = () => {
             </div>
             <div className="d-flex justify-content-center">
                 <div className="row w-75 mt-3">
+                    <Zoom left>
                     <div className="col-md-6">
                         <img src={myImg} className="img-fluid" alt=""/>
                     </div>
+                    </Zoom>
+                    <Zoom right>
                     <div className="col-md-6">
                         <h2 className="pt-5 pb-3">About Me</h2>
                         <p className="text-secondary lh-lg"> <span className="fw-bold">Hi Dear,</span><br/>I'm Arafat Islam Naim.I'm a junior full stack developer. I learned full stack web development from Programming Hero over the last 4 months. When I did start learning web development then I was a baby web developer. But now, I'm a junior full stack web developer. I can do all kinds of project like as e-commerce and business website. If you Want to know more about me then click see more option.</p>
@@ -24,6 +28,7 @@ const About = () => {
                             <Link to="/about" className="btn-style">See More</Link>
                         </div>
                     </div>
+                    </Zoom>
                 </div>
             </div>
         </section>

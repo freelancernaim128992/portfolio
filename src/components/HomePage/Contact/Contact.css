@@ -1,15 +1,17 @@
 .contact-section{
-    background-image: linear-gradient(45deg, #4b6cb7, #182848);
+    background-image: linear-gradient(45deg, #000000bf, #000000bf),url(../../../images/contact-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
 }
-.button-brand{
-    padding: 11px 40px;
-    border: none;
-    border-radius: 20px;
-    background-color: #1395c4;
-    color: white;
-    font-size: 17px;
-    font-weight: 700;
+.input-style{
+    background-color: black;
+    box-shadow: 0 0 20px -6px #000000;
+    transition: .5s;
+}
+.input-style:focus {
+    background-color: black;
+    transform: translateY(-10px);
+    box-shadow: 0 0 30px -15px #f1f1f1;
 }

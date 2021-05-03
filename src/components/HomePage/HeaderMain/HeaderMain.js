@@ -1,22 +1,20 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './HeaderMain.css'
-import Typed from 'typed.js';
+import Typical from 'react-typical'
 
 const HeaderMain = () => {
-    // const typed = new Typed('#animation', {
-    //     strings: [" Web Developer  <br/> Naim's Portfolio", "Full Stack Developer  <br/> Naim's Portfolio"],
-    //     typeSpeed: 30,
-    //     backSpeed: 30,
-    //     loop: true
-    //   });
     return (
         <section>
             <div className="header-main-container d-flex justify-content-center align-items-center">
                 <div className="w-50">
-                    <div className="" id="header-main">
-                        <h1 className="title-style">Welcome To <span id="animation"></span>Web Developer  <br/> Naim's Portfolio</h1>
-                        
+                    <div className="header-main">
+                    <h1 className="title-style">
+                    <Typical
+                        steps={["Welcome To Naim's Portfolio", 3000, "I'm a Full Stack Web Developer", 3000, "I'm a React Developer", 3000 ]}
+                        loop={Infinity}
+                        wrapper="p"
+                    />
+                    </h1>
                     </div>
 
                     <p className="text-secondary text-style w-75">I'm a full stack developer.Over the last 4 month, I learn Web development in programming hero. I have done a total of 11 projects. This is my portfolio website. If you want to hire me Please contact with me</p>
